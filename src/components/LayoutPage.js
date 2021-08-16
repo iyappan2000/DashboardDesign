@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Layout, Menu, Input, Skeleton, Row, Col, Card } from "antd";
+import { Layout, Menu, Input, Row, Col, Card } from "antd";
 
 import "antd/dist/antd.css";
 import "./Dashboard.css";
@@ -16,13 +16,13 @@ import {
   SearchOutlined,
 } from "@ant-design/icons";
 import { Link, Route } from "react-router-dom";
-import DashBoard from "./DashBoard";
+// import DashBoard from "./DashBoard";
 import Categories from "./Categories";
 
 import CategoriesDropdown from "./Dropdowns/CategoryDropdown";
 import DayDropdown from "./Dropdowns/DayDropdown";
 import YearDropdown from "./Dropdowns/YearDropdown";
-import UserDropDown from "./Dropdowns/UserDropDown";
+// import UserDropDown from "./Dropdowns/UserDropDown";
 import SalesDistribution from "./Charts/SalesDistribution";
 import SearchActivity from "./Charts/SearchActivity";
 import CardContent from "./Charts/CardContent";
