@@ -1,0 +1,57 @@
+.site-card-wrapper {
+  padding: 20px;
+  background: #000e1e;
+  /* background: white; */
+}
+.site-layout-background {
+  background: #000e1e;
+}
+.Card {
+  background: #041528;
+  /* background: white; */
+
+  border-radius: 10px;
+  color: black;
+}
+
+.ant-card-head {
+  color: #4d7cff;
+}
+.ant-list-item-meta-title > a {
+  color: #4d7cff;
+}
+.ant-list-split .ant-list-item {
+  border: transparent;
+}
+.ant-avatar {
+  color: white;
+  padding-bottom: -10px;
+  background: #041528;
+}
+.dark-mode {
+  background-color: #000e1e;
+  color: white;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.light-mode {
+  background-color: #f5f6fa;
+  color: rgb(7, 7, 7);
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+.Card_light {
+  background: #dcdde1;
+  /* background: white; */
+
+  border-radius: 10px;
+  color: black;
+}
+.Card_dark {
+  background: #041528;
+  /* background: white; */
+
+  border-radius: 10px;
+  color: black;
+}
